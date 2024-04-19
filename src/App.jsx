@@ -51,7 +51,7 @@ function App() {
         <div className='shadow-lg bg-blue-400 rounded-md mt-10  px-5 py-3 inline-block'>
           <div className='text-2xl font-medium text-center text-white mb-3 '>Password generator <span className='text-xs text-black font-light'>&copy; kanhaiya mark</span></div>
           <div>
-            <input type="text" className='p-1 rounded-sm shadow-md outline-none min-w-96'
+            <input type="text" className='p-1 rounded-sm shadow-md outline-none min-w-[80%]'
               readOnly
               ref={passRef}
               placeholder='password'
